@@ -1,6 +1,6 @@
 # OS_ETF
 
-A lightweight operating system kernel prototype implemented in **C++** and **RISC-V assembly**, developed as part of the *Operating Systems 1* course at the School of Electrical Engineering, University of Belgrade (ETF). A detailed explanation of the project requirements and organisation is located in the pdf file in `Projektni zadatak 2024. v1.0.pdf` file. 
+A lightweight operating system kernel prototype implemented in **C++** and **RISC-V assembly**, developed as part of the *Operating Systems 1* course at the School of Electrical Engineering, University of Belgrade (ETF). A detailed explanation of the project requirements and organisation is located in the file `Projektni zadatak 2024. v1.0.pdf`. 
 
 ## Overview
 
