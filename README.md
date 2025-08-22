@@ -124,15 +124,20 @@ README.md # This document
 
 Build the kernel using the included Makefile:
 
-# Clone the repository
-git clone https://github.com/DaniloMilovanovic/OS_ETF.git
+### Clone the repository
+
+git clone https://github.com/DaniloMilovanovic/OS_ETF.git 
+
 cd OS_ETF
 
-# Build the project
+### Build the project
+
 make all
 
-# Test the project
+### Test the project
+
 To test or boot the kernel, use an emulator like QEMU:
+
 make qemu
 
 The repository includes test cases under the test/ directory. These validate core functionality such as process initialization, interrupt dispatch, and memory segmentation setups.
