@@ -10,7 +10,6 @@ This project implements the core abstractions of a simple multitasking operating
 - **Thread management** with context switching and scheduling  
 - **Semaphore-based synchronization** primitives  
 - **Dual API layer**: low-level **C API** and high-level **C++ API**
-- 
 All components were built from scratch without relying on the host operating system. The kernel runs on a simulated **RISC-V platform** using QEMU, with support for timer interrupts and console I/O.
 
 ## Implemented Features
@@ -90,8 +89,6 @@ Semaphores are implemented entirely in the kernel and are used to synchronize th
   - Returns immediately with success or failure.  
 
 This implementation ensures **fairness** by unblocking threads in FIFO order and leverages the kernel’s scheduler to resume execution.
-
----
 
 ### API Layers
 The kernel provides two layers of interaction:
